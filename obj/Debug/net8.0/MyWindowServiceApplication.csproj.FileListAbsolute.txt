@@ -46,3 +46,7 @@ C:\Users\laksh\source\repos\MyWindowServiceApplication\obj\Debug\net8.0\refint\M
 C:\Users\laksh\source\repos\MyWindowServiceApplication\obj\Debug\net8.0\MyWindowServiceApplication.pdb
 C:\Users\laksh\source\repos\MyWindowServiceApplication\obj\Debug\net8.0\MyWindowServiceApplication.genruntimeconfig.cache
 C:\Users\laksh\source\repos\MyWindowServiceApplication\obj\Debug\net8.0\ref\MyWindowServiceApplication.dll
+C:\Users\laksh\source\repos\MyWindowServiceApplication\obj\Debug\net8.0\MyWindowServiceApplication.sourcelink.json
+C:\Users\laksh\source\repos\MyWindowServiceApplication\bin\Debug\net8.0\Microsoft.Extensions.Hosting.WindowsServices.dll
+C:\Users\laksh\source\repos\MyWindowServiceApplication\bin\Debug\net8.0\System.ServiceProcess.ServiceController.dll
+C:\Users\laksh\source\repos\MyWindowServiceApplication\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.ServiceProcess.ServiceController.dll

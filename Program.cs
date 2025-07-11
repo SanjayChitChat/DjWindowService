@@ -1,7 +1,13 @@
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using MyWindowServiceApplication;
 
-var builder = Host.CreateApplicationBuilder(args);
-builder.Services.AddHostedService<Worker>();
+IHost host = Host.CreateDefaultBuilder(args)
+    .UseWindowsService() // Enables running as Windows Service
+    .ConfigureServices((hostContext, services) =>
+    {
+        services.AddHostedService<Worker>();
+    })
+    .Build();
 
-var host = builder.Build();
-host.Run();
+await host.RunAsync();
